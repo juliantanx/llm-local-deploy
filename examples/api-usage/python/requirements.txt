@@ -1,0 +1,6 @@
+# Python SDK Example Dependencies
+openai>=1.0.0
+
+# Optional: For ChromaDB integration
+# chromadb>=0.4.0
+# requests>=2.28.0
