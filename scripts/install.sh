@@ -170,8 +170,7 @@ download_files() {
 
     # Clone or download
     if command_exists git; then
-        git clone https://github.com/anthropics/llm-local-deploy.git 2>/dev/null || \
-        git clone https://github.com/your-username/llm-local-deploy.git 2>/dev/null || \
+        git clone https://github.com/juliantanx/llm-local-deploy.git 2>/dev/null || \
         error "Failed to clone repository. Please download manually from GitHub."
         cd llm-local-deploy || error "Failed to enter project directory"
     else
