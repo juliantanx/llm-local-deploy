@@ -6,10 +6,10 @@ Run powerful LLMs locally with a single command. Privacy-first, no cloud needed,
 
 ```bash
 # One-line installation
-curl -fsSL https://raw.githubusercontent.com/anthropics/llm-local-deploy/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/juliantanx/llm-local-deploy/main/scripts/install.sh | bash
 
 # Or clone and run
-git clone https://github.com/anthropics/llm-local-deploy.git
+git clone https://github.com/juliantanx/llm-local-deploy.git
 cd llm-local-deploy
 ./scripts/install.sh
 ```
